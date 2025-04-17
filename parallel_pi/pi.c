@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <omp.h>
 
-static long num_steps = 100000;
-#define MAX 100
+static long num_steps = 1000000000;
+#define MAX 64
 
 int main() {
     double step = 1.0/(double)num_steps;
